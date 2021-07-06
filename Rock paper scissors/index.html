@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Rock,Paper & Scissors</title>
+</head>
+<body>
+    <button  onclick="userInput()">hey</button>
+    <nav class="nav-bar">
+        <h1 class="main-heading">Rock,Paper & Scissors</h1>
+    </nav>
+   
+    <div class="container" id="total-wins">
+        <p><span id="user-win" class="wins">0</span>:<span id="computer-win" class="wins">0</span> <br>User :Computer</p>
+    </div>
+    <div class="container">
+        <h1 id="winner-desc">Select rock, paper or scissors.</h1>
+    </div>
+    <div class="container">
+        <div class="images-container">
+            <img src="images/rock.png" alt="" class="images" onclick="getUserChoose('rock')">
+        </div>
+        <div class="images-container">
+            <img src="images/paper.png" alt="" class="images" onclick="getUserChoose('paper')">
+        </div>
+        <div class="images-container">
+            <img src="images/scissors.png" alt="" class="images" onclick="getUserChoose('scissors')">
+        </div>
+    </div>
+</body>
+<script src="app.js"></script>
+</html>
