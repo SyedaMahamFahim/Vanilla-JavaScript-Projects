@@ -1,0 +1,20 @@
+.container{
+    width: 56%;
+    background-color: pink;
+    border: 2px solid red;
+    margin: 10% auto;
+    padding: 26px;
+}
+input{
+    width: 92%;
+    padding: 10px 20px;
+}
+.clear {
+    width: 99%;
+    padding: 10px 0px;
+}  
+
+.button{
+    width: 24%;
+    padding: 10px;
+}
