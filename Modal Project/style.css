@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    height: 100%;
+    background:#f1f5f8;
+}
+.container{ 
+    margin: auto;
+    margin-top: 200px;
+    width: 50%;
+    padding: 50px;
+    background: white;
+}
+#title{
+    text-align: center;
+    font-family: monospace;
+    font-size: 4rem;
+    font-weight: 800;
+    color: #1d1d1f;
+}
+#btn{
+    margin: 40px 50px 40px 350px;
+    padding: 5px 9px;
+    font-size: 20px;
+    font-weight: 600;
+    color: white;
+    background: #673ab7;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    }
+
+    /* OPEN/CLOSE MODAL */
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  }
+  
+  /* Modal Content */
+  .modal-content {
+    background-color: #fefefe;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+  }
+  
+  /* The Close Button */
+  .close {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+  }
+@media only screen and (max-width:550px) {
+    #btn{
+        margin: 36px 27px;
+        padding: 5px 37px;
+        font-size: 20px;
+        font-weight: 600;
+        color: white;
+        background: #673ab7;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+}
+#title{
+    text-align: center;
+    font-family: monospace;
+    font-size: 2rem;
+    font-weight: 800;
+    color: #1d1d1f;
+}
+
+}
