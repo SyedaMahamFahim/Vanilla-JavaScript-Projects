@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Tip Calcultor</title>
+</head>
+<body>
+    <div class="container">
+        <h1 id="title">Bill  Divider </h1>
+        
+        <h3 class="questions">How much was your bill?</h3>
+       <span class="dollar">$</span> <input type="text" id="user_bill" placeholder="Bill Amount">
+       <h3 class="questions">How was the service?</h3>
+       <select name=""  id="userexperience">
+           <option id="good_experience" value="Good">Good</option>
+           <option id="bad_experience" value="Bad">Bad</option>
+       </select>
+       <h3 class="questions">How many people are sharing the bill?</h3>
+      <input type="text" id="no_of_users"> <strong>People</strong>
+      <br>
+      <p id="output"></p>
+      <button id="calculate" onclick="mainFunction()">Calculate!</button>
+      
+    </div>
+</body>
+<script src="app.js"></script>
+</html>

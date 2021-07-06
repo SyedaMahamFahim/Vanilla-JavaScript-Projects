@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    height: 100%;
+    background-image: linear-gradient(270deg,#411C15,#601D13);
+}
+.container{
+        
+    margin: 80px auto;
+    max-width: 400px;
+    height: 500px;
+    background-color: #F7F7F7;
+    /* text-align: center; */
+    border-radius: 20px;
+    
+}
+#title{
+    background-color: #340c05;
+    color: white;
+    text-align: center;
+    border-radius: 20px 20px 0px 0 ;
+}
+.questions{
+    padding: 20px 20px 10px 20px;
+}
+input[type=text],select {
+    border: 1px solid #afa0a0;
+    width: 80%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    background: #f7f5f5;
+}
+.dollar{
+    margin-left: 14px;
+    font-weight: 900;
+}
+#userexperience{  
+    width: 80%;
+    padding: 12px 20px;
+    margin: 8px 2px 8px 26px;  
+}
+#no_of_users{
+    width: 75%;
+    padding: 12px 20px;
+    margin: 8px 2px 8px 26px;  
+
+}
+#calculate{
+    background-color: #340c05;
+    color: white;
+    padding: 10px 20px;
+    margin: 20px 150px;
+    cursor: pointer;
+}
+#output{
+    background-color: yellow;
+}
