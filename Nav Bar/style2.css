@@ -1,0 +1,41 @@
+/* Media Query */
+@media only screen and (min-width: 800px)and (max-width: 1320px) {
+    /* For mobile phones: */
+    .logo {
+        display: flex;
+        flex-basis: 15%;
+        padding: 5px;
+        flex-wrap: nowrap;
+        align-content: center;
+        margin-top: 13px;
+    }
+    #first-name{
+        font-size: 40px;
+    font-weight: 600;
+    text-align: center;
+    }
+    #middle-name{
+        font-size: 40px;
+        font-weight: 600;
+        text-align: center;
+    }
+    ul{
+        padding: 15px 10px;
+        
+    }
+    .list-items{
+        font-size: 14px;
+    }
+    .menu{
+        flex-basis: 75%;
+    }
+    #menu-bar{
+        display: none;
+    }
+  }
+
+  @media only screen and (max-width: 464px) {
+    .logo {
+        color: pink;
+    }
+  }
