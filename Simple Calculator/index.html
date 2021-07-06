@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+
+    <title>Document</title>
+</head>
+
+<body>
+    <footer> 
+        Created And Design By <a href="https://www.fiverr.com/syedamahamfahim?up_rollout=true" target="_blank">Syeda Maham Fahim</a>
+    </footer>
+    <div class="container my-4">
+        <div class="calculator card">
+
+            <input type="text" class="calculator-screen z-depth-1" value="" id="userInput" disabled />
+
+            <div class="calculator-keys">
+
+                <button type="button" class="operator btn btn-info" onclick="getNumber('+')">+</button>
+                <button type="button" class="operator btn btn-info" onclick="getNumber('-')">-</button>
+                <button type="button" class="operator btn btn-info" onclick="getNumber('*')">&times;</button>
+                <button type="button" class="operator btn btn-info" onclick="getNumber('/')">&divide;</button>
+
+                <button type="button" onclick="getNumber('7')" class="btn btn-light waves-effect">7</button>
+                <button type="button" onclick="getNumber('8')" class="btn btn-light waves-effect">8</button>
+                <button type="button" onclick="getNumber('9')" class="btn btn-light waves-effect">9</button>
+
+
+                <button type="button" onclick="getNumber('4')" class="btn btn-light waves-effect">4</button>
+                <button type="button" onclick="getNumber('5')" class="btn btn-light waves-effect">5</button>
+                <button type="button" onclick="getNumber('6')" class="btn btn-light waves-effect">6</button>
+
+
+                <button type="button" onclick="getNumber('1')" class="btn btn-light waves-effect">1</button>
+                <button type="button" onclick="getNumber('2')" class="btn btn-light waves-effect">2</button>
+                <button type="button" onclick="getNumber('3')" class="btn btn-light waves-effect">3</button>
+
+
+                <button type="button" onclick="getNumber('0')" class="btn btn-light waves-effect">0</button>
+                <button type="button" class="decimal function btn btn-secondary" onclick="getNumber('.')">.</button>
+                <button type="button" class="all-clear function btn btn-danger btn-sm" 
+                    onclick="clearBtn()">AC</button>
+
+                <button type="button" class="equal-sign operator btn btn-default" value="="
+                    onclick="evaluateNumber()">=</button>
+
+            </div>
+        </div>
+    </div>
+   
+</body>
+<script src="app.js"></script>
+
+</html>
